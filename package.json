@@ -1,0 +1,22 @@
+{
+  "name": "google-speech",
+  "version": "0.0.1",
+  "description": "Google ASR wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antirek/google-speech.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antirek/google-speech/issues"
+  },
+  "homepage": "https://github.com/antirek/google-speech",
+  "dependencies": {
+    "request": "^2.51.0"
+  }
+}
