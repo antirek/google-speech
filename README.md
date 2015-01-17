@@ -49,4 +49,16 @@ google_speech.TTS({
   }
 );
 
+//or so
+
+google_speech.TTS({
+  text: 'Привет, мир!',
+  file: 'data/hello.mp3',
+  language: 'ru',
+  encoding: 'UTF-8'
+  }, function(){
+    console.log('done');
+  }
+);
+
 ```
