@@ -8,7 +8,7 @@ npm install google-speech --save
 
 ```
 
-## Automatic Speech Recognition
+## Automatic Speech Recognition ##
 
 Get API key: https://console.developers.google.com/
 
@@ -28,6 +28,25 @@ google_speech.ASR({
         console.log(httpResponse.statusCode, xml)
       }
     }
+);
+
+```
+
+
+## Text-To-Speech ##
+
+(use unofficial api, api key not required)
+
+
+```javascript
+var google_speech = require('google-speech');
+
+google_speech.TTS({
+  text: 'Привет, мир!',
+  file: 'data/hello.mp3'
+  }, function(){
+    console.log('done');
+  }
 );
 
 ```
